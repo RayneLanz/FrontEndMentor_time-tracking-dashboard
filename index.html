@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <main>
+
+    <div class="wrapper">
+
+      <article class="User">
+
+        <div class="userInfo Padding">
+          <img src="./images/image-jeremy.png" alt="">
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy <br>Robson</h1>
+          </div>
+        </div>
+
+        <div class="periodicalTime Padding">
+          <button class="Daily">Daily</button>
+          <button class="Weekly">Weekly</button>
+          <button class="Monthly">Monthly</button>
+        </div>
+
+
+      </article>
+
+      <article class="work">
+        <div  class="logo colorWork"><img src="./images/icon-work.svg" alt=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding" >
+          <nav class="dashboardNav">
+            <p>Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="WorkTime">32</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Workprev">36</span>hrs</p>
+        </div>
+      </article>
+
+      <article class="play">
+        <div  class="logo colorPlay"><img src="./images/icon-play.svg" alt="" class=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding">
+          <nav class="dashboardNav">
+            <p>Play</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="PlayTime">10</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Playprev">8</span>hrs</p>
+        </div>
+      </article>
+
+      <article class="study">
+        <div  class="logo colorStudy"><img src="./images/icon-study.svg" alt=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding">
+          <nav class="dashboardNav">
+            <p>Study</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="StudyTime">4</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Studyprev">7</span>hrs</p>
+        </div>
+      </article>
+
+      <article class="excercise">
+        <div  class="logo colorExcer"><img src="./images/icon-exercise.svg" alt=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding">
+          <nav class="dashboardNav">
+            <p>Excercise</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="ExTime">4</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Exprev">5</span>hrs</p>
+        </div>
+      </article>
+
+      <article class="social">
+        <div  class="logo colorScocial"><img src="./images/icon-social.svg" alt=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding">
+          <nav class="dashboardNav">
+            <p>Social</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="SocialTime">5</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Socialprev">10</span>hrs</p>
+        </div>
+      </article>
+
+      <article class="selfCare">
+        <div  class="logo colorSelfCare"><img src="./images/icon-self-care.svg" alt=""></div>
+        <div class="spacing"></div>
+        <div class="dashboard Padding">
+          <nav class="dashboardNav">
+            <p>SelfCare</p>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </nav>
+          <h1 class="time"><span class="SelfTime">2</span>hrs</h1>
+          <p class="prevTime">Last Week - <span class="Selfprev">2</span>hrs</p>
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+<script src="data.json"></script>
+<script src="script.js"></script>
+</body>
+</html>
